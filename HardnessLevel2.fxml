@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HardnessLevelChoose">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="547.0" layoutX="25.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" translateX="100.0">
+         <image>
+            <Image url="@appbackground5.jpg" />
+         </image></ImageView>
+      <Label layoutX="162.0" layoutY="103.0" prefHeight="36.0" prefWidth="276.0" text="Difficulty Level In Exam" textFill="#6b1717">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="hardnesslevel" layoutX="169.0" layoutY="188.0" prefHeight="25.0" prefWidth="195.0" />
+      <Button layoutX="445.0" layoutY="306.0" mnemonicParsing="false" onAction="#SubmitButtonClicked" text="START EXAM">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

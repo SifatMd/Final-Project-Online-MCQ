@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeacherOrStudent">
+   <children>
+      <ImageView fitHeight="443.0" fitWidth="608.0" layoutX="79.0" pickOnBounds="true" preserveRatio="true" scaleX="1.4">
+         <image>
+            <Image url="@appbackground6.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="200.0" layoutY="54.0" text="Enter As: " textFill="#eee9e9">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="chooseany" layoutX="181.0" layoutY="148.0" prefWidth="150.0" />
+      <Button layoutX="220.0" layoutY="275.0" mnemonicParsing="false" onAction="#ProceedButtonClicked" prefHeight="39.0" prefWidth="71.0" text="PROCEED" />
+   </children>
+</Pane>

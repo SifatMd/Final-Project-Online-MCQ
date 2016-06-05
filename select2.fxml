@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControlSelect">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="591.0" pickOnBounds="true" preserveRatio="true" scaleX="1.15" translateX="30.0" translateY="1.5">
+         <image>
+            <Image url="@appbackground2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="162.0" layoutY="53.0" prefHeight="35.0" prefWidth="162.0" text="Exam Options">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="159.0" prefHeight="32.0" prefWidth="184.0" text="Subject Choice">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="ExamOptionsChoiceBox" layoutX="162.0" layoutY="106.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="SubjectChoiceBox" layoutX="162.0" layoutY="218.0" prefWidth="150.0" />
+      <Button layoutX="203.0" layoutY="315.0" mnemonicParsing="false" onAction="#SubmitButtonClicked" text="SUBMIT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="502.0" layoutY="322.0" mnemonicParsing="false" onAction="#LogOutButtonClicked" text="Log Out">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

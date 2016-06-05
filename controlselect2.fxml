@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="584.0" pickOnBounds="true" preserveRatio="true" scaleX="1.15" translateX="35.0">
+         <image>
+            <Image url="@appbackground1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutY="-29.0" prefHeight="34.0" prefWidth="121.0" text="Username" textFill="#fcf8f8" translateX="100.0" translateY="85.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="107.0" prefHeight="27.0" prefWidth="96.0" text="Password" textFill="#faf9fc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="LoginName" layoutX="247.0" layoutY="61.0" prefHeight="25.0" prefWidth="230.0" promptText="Enter User Name(In One Word)" />
+      <PasswordField fx:id="LoginPassword" layoutX="247.0" layoutY="109.0" prefHeight="25.0" prefWidth="230.0" promptText="Enter Password" />
+      <Label layoutX="210.0" layoutY="170.0" prefHeight="30.0" prefWidth="131.0" text="SIGN   UP" textFill="#fcfaff">
+         <font>
+            <Font name="Arial Unicode MS" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="239.0" text="Enter Name" textFill="#faf7f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="281.0" text="Re-Enter Name" textFill="#eeecec">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="325.0" text="Enter Password" textFill="#f5f5f5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="SignInName" layoutX="288.0" layoutY="240.0" prefHeight="25.0" prefWidth="217.0" promptText="Enter Name(In One Word)" />
+      <TextField fx:id="SignInReName" layoutX="288.0" layoutY="282.0" prefHeight="25.0" prefWidth="217.0" promptText="Re Enter Name(In One Word)" />
+      <PasswordField fx:id="SignInPassword" layoutX="288.0" layoutY="327.0" prefHeight="25.0" prefWidth="217.0" promptText="Enter Password" />
+      <Label layoutX="225.0" layoutY="14.0" text="LOG    IN" textFill="#e6ebdd">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="499.0" layoutY="145.0" mnemonicParsing="false" onAction="#LoginButtonClicked" prefHeight="25.0" prefWidth="65.0" text="Log In" textFill="#04021e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="503.0" layoutY="361.0" mnemonicParsing="false" onAction="#SignInButtonClicked" text="Sign Up">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="LogInMessage" layoutX="236.0" layoutY="142.0" prefHeight="27.0" prefWidth="230.0" text=" " textFill="#f2e5e5" />
+      <Label fx:id="SignInMessage" layoutX="121.0" layoutY="363.0" prefHeight="27.0" prefWidth="230.0" text=" " textFill="#f2e5e5" />
+      <CheckBox fx:id="AsTeacher" layoutX="384.0" layoutY="367.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="94.0" text="Teacher" textFill="#f2efef">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="LoginAsTeacher" layoutX="490.0" layoutY="98.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="94.0" text="Teacher" textFill="#f2efef">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </CheckBox>
+   </children>
+</Pane>

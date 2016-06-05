@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TrialResultPage">
+   <children>
+      <ImageView fitHeight="467.0" fitWidth="576.0" pickOnBounds="true" preserveRatio="true" scaleX="1.16" translateX="40.0">
+         <image>
+            <Image url="@appbackground4.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="102.0" text="You have Answered: " textFill="#f8f7f7">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="154.0" text="Total Questions: " textFill="#eee9e9">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="187.0" layoutY="27.0" text="Trial Exam Result" textFill="#ebe2e2">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="209.0" text="Correct Answers: " textFill="#eeeaea">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="AnsweredQuestions" layoutX="347.0" layoutY="102.0" text="Label" textFill="#ebe5e5">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="TotalQuestions" layoutX="347.0" layoutY="154.0" text="Label" textFill="#f2ecec">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="CorrectAnswers" layoutX="347.0" layoutY="209.0" text="Label" textFill="#f8f3f3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="466.0" layoutY="326.0" mnemonicParsing="false" onAction="#LogOutButtonClicked" text="Log Out">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="215.0" layoutY="329.0" mnemonicParsing="false" onAction="#StartAgain" text="Start Exam Again!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

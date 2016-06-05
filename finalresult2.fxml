@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.finalres">
+   <children>
+      <ImageView fitHeight="406.0" fitWidth="516.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" translateX="100.0">
+         <image>
+            <Image url="@appbackground3.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="173.0" layoutY="20.0" prefHeight="49.0" prefWidth="223.0" text="Score Sheet">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="83.0" text="Subject: GRE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="129.0" text="Your Score: ">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="212.0" layoutY="265.0" mnemonicParsing="false" onAction="#ScoreButtonSelected" text="Get My Score">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="475.0" layoutY="340.0" mnemonicParsing="false" onAction="#LogoutButtonClicked" text="Log Out">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="ScoreId" layoutX="23.0" layoutY="192.0" prefHeight="38.0" prefWidth="543.0" text="                                  What's My Score?" textFill="#fcf8f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="202.0" layoutY="340.0" mnemonicParsing="false" onAction="#StartAgain" text="Start Exam Again!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="448.0" layoutY="265.0" mnemonicParsing="false" onAction="#ShowScoresButtonClicked" text="Show My Scores">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
